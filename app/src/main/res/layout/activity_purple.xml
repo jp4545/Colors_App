@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/colorgreen"
+            android:id="@+id/green"
+            android:text="Green"
+            android:textSize="10dp"
+            android:paddingTop="20dp"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/colorblack"
+            android:id="@+id/black"
+            android:text="Black"
+            android:textSize="10dp"
+            android:paddingTop="20dp"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/colorred"
+            android:id="@+id/red"
+            android:text="Red"
+            android:textSize="10dp"
+            android:paddingTop="20dp"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="@drawable/colorgrey"
+            android:id="@+id/grey"
+            android:text="Grey"
+            android:textSize="10dp"
+            android:paddingTop="20dp"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/colormaroon"
+            android:id="@+id/maroon"
+            android:text="Maroon"
+            android:textSize="10dp"
+            android:paddingTop="20dp"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/colorpink"
+            android:id="@+id/pink"
+            android:text="Pink"
+            android:textSize="10dp"
+            android:paddingTop="20dp"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/blue"
+            android:background="@drawable/colorblue"
+            android:textSize="10dp"
+            android:paddingTop="20dp"
+            android:text="Blue"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/orange"
+            android:background="@drawable/colororange"
+            android:paddingTop="20dp"
+            android:text="Orange"
+            android:textSize="10dp"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/dgreen"
+            android:background="@drawable/colordgreen"
+            android:paddingTop="20dp"
+            android:text="Dgreen"
+            android:textSize="10dp"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/lblue"
+            android:background="@drawable/colorlblue"
+            android:paddingTop="20dp"
+            android:text="Lblue"
+            android:textSize="10dp"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/purple"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/colorpurple"
+            android:paddingTop="20dp"
+            android:text="Purple"
+            android:textSize="10dp"
+            android:textColor="#fff" />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/brown"
+            android:background="@drawable/colorbrown"
+            android:paddingTop="20dp"
+            android:text="Brown"
+            android:textSize="10dp"
+            android:textColor="#fff" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/playaudio"
+            android:background="@drawable/colorwhite"
+            android:textSize="15dp"
+            android:paddingTop="20dp"
+            android:text="Audio"
+            android:textColor="#212F3C" />
+
+
+
+    </LinearLayout>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <TextView
+            android:id="@+id/text_view_id"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="Where is Purple" />
+    </LinearLayout>
+
+
+
+    }
+    }
+
+</LinearLayout>
